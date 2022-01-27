@@ -1,9 +1,11 @@
+import React from "react"
+import Card from "./components/Card"
+
 function App() {
   return (
-    <h1 
-      className="text-3xl font-bold underline">
-      Namaste World!
-    </h1>
+    <div className="min-h-screen py-10 px-3 sm: px-5 bg-gray-100">
+      <Card />
+    </div>  
   );
 }
 
