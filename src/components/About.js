@@ -10,8 +10,8 @@ function About () {
             </p>
             <p
                 className="text-base sm:text-xl text-center text-gray-600 leading-relaxed mt-4">
-                I'm a passionate OS developer. I love analyzing data and building softwares. I am
-                also a big supporter of Open Source Development.
+                I'm a passionate about OS development. I love analyzing data and developing softwares. I am
+                also a big supporter of Open Source Software movement.
             </p>
         </div>
     );
