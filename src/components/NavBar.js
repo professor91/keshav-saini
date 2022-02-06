@@ -10,7 +10,7 @@ function NavBar () {
                 className="hidden md:flex space-x-10 items-center">
                 <a href="#" className="text-selected-text">About Me</a>
                 <a href="#" className="">Skills</a>
-                <a href="#" className="">Blog</a>
+                <a href="https://medium.com/@keshavcode3" target='_blank' className="">Blog</a>
                 <a href="#" className="">
                     <button className="bg-black rounded-full px-5 py-2">
                         <span className="text-white transiti">Drop a Message</span>
