@@ -4,16 +4,16 @@ import NoPreviewImg from "../assets/img/No Preview Available.png";
 const Card = (props) => {
     return (
         <div 
-            className="block md:flex flex-row">
+            className="pb-10 block md:flex flex-row justify-evenly">
                 {/* w-full */}
             <div
-                className="img">
+                className="img w-2/5 sm:justify-center">
                 <img
                     src={NoPreviewImg}>
                 </img>
             </div>
             <div
-                className="description basis-1/2 ">
+                className="pt-5 flex flex-col md:basis-1/2 md:pt-0">
                 <span
                     className="text-2xl font-bold">
                         {props.projectName}
@@ -23,7 +23,7 @@ const Card = (props) => {
                     {props.projectDesc}
                     </p>
                 <div
-                    className="mt-4">
+                    className="mt-auto">
                     <a href={props.githubLink}>GitHub</a>
                 </div>
             </div>
@@ -40,7 +40,7 @@ function Projects () {
                 className="text-3xl font-bold">
                 Active Projects
             </p>
-            <ul
+            <div
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <Card 
                     projectName= "Syllabus Web"
@@ -52,7 +52,7 @@ function Projects () {
                     projectDesc= "Carnegie Mellon University’s educational graphics software package. \
                     Includes projects in interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation."
                 />
-            </ul>
+            </div>
         </div>
     );
 }
