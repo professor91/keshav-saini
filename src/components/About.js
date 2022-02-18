@@ -4,8 +4,7 @@ import { Link } from "react-router-dom";
 function About () {
     return (
         <div 
-            className=" mt-10">
-                {/* max-w-4xl */}
+            className="mt-10">
             <p
                 className="text-3xl font-bold">
                 About

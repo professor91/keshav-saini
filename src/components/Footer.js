@@ -6,7 +6,7 @@ const style="text-xl m-1 p-1 sm:m-2 sm:p-2 rounded-full hover:text-white transit
 function Footer () {
     return (
             <div 
-                className="pt-20 py-5 border-t-3/2">
+                className="py-5 mt-auto">
                 <div 
                     className="flex justify-center">
                     <a
@@ -37,9 +37,10 @@ function Footer () {
                         <span class="sr-only">Mail</span>
                     </a>
                 </div>
-                {/* Credits - https://thenumbat.github.io/ - Make a card */}
             </div>
         );
 }
 
 export default Footer;
+
+{/* Credits - https://thenumbat.github.io/ - Make a card */}

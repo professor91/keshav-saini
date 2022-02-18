@@ -11,9 +11,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
       <div 
-        className="max-w-screen-lg mx-auto min-h-screen sm: px-10 md:px-14">
-          {/* py-5 px-10 sm: px-5 bg-gray-100 */}
-
+        className="min-h-screen max-w-screen-lg mx-auto sm: px-10 flex flex-col">
         <Router>
           <NavBar />
           <hr></hr>
