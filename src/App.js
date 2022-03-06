@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // component imports
 import NavBar from "./components/NavBar";
 import About from "./components/About";
-import Project from "./components/Projects"
+import Project from "./components/Projects";
 import Footer from "./components/Footer";
-// import Skills from "./components/Skills";
+import Skills from "./components/Skills";
 
 function App() {
   return (
@@ -19,7 +19,7 @@ function App() {
           <Routes>
             <Route path="/" element={<About />} />
             <Route path="/projects" element={<Project />} />
-            {/* <Route path="/skills" element={Skills} /> */}
+            <Route path="/skills" element={<Skills />} />
           </Routes>
         
           <Footer />
@@ -29,3 +29,5 @@ function App() {
 }
 
 export default App;
+
+// https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/
