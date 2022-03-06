@@ -18,7 +18,7 @@ function About () {
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <li>
                     <a 
-                        href="../assets/Resume.pdf">
+                        href="https://github.com/professor91/keshav-saini/blob/master/src/assets/Resume.pdf">
                         My Resume
                     </a>
                 </li>
