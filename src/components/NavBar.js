@@ -10,7 +10,7 @@ function NavBar () {
             <div 
                 className="text-2xl font-bold">
                 <Link 
-                    to="/">
+                    to="/keshav-saini">
                     Keshav Saini
                 </Link>
             </div>
