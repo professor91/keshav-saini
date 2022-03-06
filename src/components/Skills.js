@@ -8,7 +8,6 @@ function Skills() {
                 className="text-3xl font-bold">
                 Skills
             </p>
-            <p className="text-gray-600">order reflects my proficiency</p>
             <div
                 className="flex justify-between">
                 <div>
@@ -31,6 +30,7 @@ function Skills() {
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
+                        <li>Tailwind CSS</li>
                         <li>ReactJS</li>
                         <li>Qt</li>
                     </ul>
@@ -51,14 +51,13 @@ function Skills() {
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        STEM
+                        Other
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>Statistics</li>
                         <li>Linear Algebra</li>
                         <li>Public Finance</li>
-                        <li>Operating Systems</li>
                     </ul>
                 </div>
             </div>
