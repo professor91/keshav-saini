@@ -11,16 +11,17 @@ function About () {
             </p>
             <p
                 className="text-gray-600 leading-relaxed mt-4">
-                I'm a second year Computer Science student at Keshav Mahavidyala, Delhi University in Delhi. 
-                I’m interested in Operating Systems, Economics and Data Science.
+                I'm a second year Computer Science student at Keshav Mahavidyala, Delhi University.
+                I’m interested in Data Science, Economics and Computer Science in general.
             </p>
             <ul
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <li>
-                    <a 
-                        href="https://github.com/professor91/keshav-saini/blob/master/src/assets/Resume.pdf">
+                    <Link 
+                        // href="https://github.com/professor91/keshav-saini/blob/master/src/assets/Resume.pdf">
+                        to="/resume">
                         My Resume
-                    </a>
+                    </Link>
                 </li>
                 <li>
                     <Link 
@@ -28,7 +29,6 @@ function About () {
                         My Projects
                     </Link>
                 </li>
-                <li>My Bookmarks</li>
                 <li>
                     <a
                         href="mailto:keshavsaini1820@gmail.com">
