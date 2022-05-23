@@ -58,17 +58,31 @@ function Projects () {
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <Card 
                     projectName= "Syllabus Web"
-                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website \
-                    that presents syllabus of all courses in Delhi University and their syllabus in a well interactive manner."
+                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of all courses in Delhi University and their syllabus in a well interactive manner."
                     previewImg= {SyllabusWebImg}
-                    socials= {[["GitHub", "https://github.com/professor91/SyllabusWeb"], ["Preview Site", "https://professor91.github.io/SyllabusWeb_NewDesign_Preview/"]]}
+                    socials= {[["GitHub", "https://github.com/professor91/SyllabusWeb"], ["Preview Site", "https://professor91.github.io/SyllabusWeb/"]]}
                 />
+                <Card 
+                    projectName= "Dependency Graph Builder"
+                    projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them."
+                    previewImg= {NoPreviewImg}
+                    socials= {[["GitHub", "https://github.com/professor91/DependencyGraph-Builder"]]}
+                />
+                <p
+                    className="text-3xl font-bold">
+                    Inactive Projects
+                </p>
                 <Card
                     projectName= "WazirX Scraper"
-                    projectDesc= "Carnegie Mellon University’s educational graphics software package. \
-                    Includes projects in interactive 3D mesh editing, path tracing, dynamic animation, and physics-based simulation."
+                    projectDesc= "WazirX Scraper uses wazirX API to fetch data about the coins registered on the platform"
                     previewImg= {NoPreviewImg}
                     socials= {[["GitHub", "https://github.com/professor91/wazirXAPI"]]}
+                />
+                <Card
+                    projectName= "DPP Bot"
+                    projectDesc= "A discord bot built using DPP, a C++ library for interacting with Discord API."
+                    previewImg= {NoPreviewImg}
+                    socials= {[["GitHub", "https://github.com/professor91/DPP_bot"]]}
                 />
             </div>
         </div>
