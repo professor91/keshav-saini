@@ -1,5 +1,6 @@
 import React from "react";
 import { FaGithub, FaLinkedinIn, FaEnvelope, FaTwitter } from "react-icons/fa"
+import { Link } from "react-router-dom";
 
 const style="text-xl m-1 p-1 sm:m-2 sm:p-2 rounded-full hover:text-white transition-colors durations-300"
 
@@ -37,10 +38,15 @@ function Footer () {
                         <span class="sr-only">Mail</span>
                     </a>
                 </div>
+                <p 
+                    className="flex justify-center mb-5">
+                    <Link
+                        to={"/credits"}>
+                    Credits
+                    </Link>
+                </p>
             </div>
         );
 }
 
 export default Footer;
-
-{/* Credits - https://thenumbat.github.io/ - Make a card */}
