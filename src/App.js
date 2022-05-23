@@ -7,6 +7,8 @@ import About from "./components/About";
 import Project from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
+import Resume from "./components/Resume";
+import Credits from "./components/Credits"
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
             <Route path="/keshav-saini" element={<About />} />
             <Route path="/projects" element={<Project />} />
             <Route path="/skills" element={<Skills />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/credits" element={<Credits />} />
           </Routes>
-        
+
           <Footer />
         </Router>
       </div>  
