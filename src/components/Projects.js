@@ -58,15 +58,9 @@ function Projects () {
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <Card 
                     projectName= "Syllabus Web"
-                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of all courses in Delhi University and their syllabus in a well interactive manner."
+                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of all courses in Delhi University and their syllabus in a well interactive manner"
                     previewImg= {SyllabusWebImg}
                     socials= {[["GitHub", "https://github.com/professor91/SyllabusWeb"], ["Preview Site", "https://professor91.github.io/SyllabusWeb/"]]}
-                />
-                <Card 
-                    projectName= "Dependency Graph Builder"
-                    projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them."
-                    previewImg= {NoPreviewImg}
-                    socials= {[["GitHub", "https://github.com/professor91/DependencyGraph-Builder"]]}
                 />
                 <p
                     className="text-3xl font-bold">
@@ -78,11 +72,29 @@ function Projects () {
                     previewImg= {NoPreviewImg}
                     socials= {[["GitHub", "https://github.com/professor91/wazirXAPI"]]}
                 />
+                <Card 
+                    projectName= "Spotify API"
+                    projectDesc= "Implemented public API of spotify"
+                    previewImg= {NoPreviewImg}
+                    socials= {[["GitHub", "https://github.com/professor91/SpotifyAPI"]]}
+                />
+                <Card 
+                    projectName= "DUSC Bot"
+                    projectDesc= "DUSC bot is a customized discord bot developed by members Delhi University Student Community, as per the needs of the server. It is developed in python language using Pycord library which is distributed under MIT LICENSE"
+                    previewImg= {NoPreviewImg}
+                    socials= {[["GitHub", "https://github.com/professor91/DUSC-DBot"]]}
+                />
                 <Card
                     projectName= "DPP Bot"
-                    projectDesc= "A discord bot built using DPP, a C++ library for interacting with Discord API."
+                    projectDesc= "A discord bot built using DPP, a C++ library for interacting with Discord API"
                     previewImg= {NoPreviewImg}
                     socials= {[["GitHub", "https://github.com/professor91/DPP_bot"]]}
+                />
+                <Card 
+                    projectName= "Dependency Graph Builder"
+                    projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them"
+                    previewImg= {NoPreviewImg}
+                    socials= {[["GitHub", "https://github.com/professor91/DependencyGraph-Builder"]]}
                 />
             </div>
         </div>

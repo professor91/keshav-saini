@@ -13,41 +13,42 @@ function Skills() {
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Languages
+                        Programming
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>C++</li>
                         <li>Python</li>
-                        <li>C</li>
-                        <li>JAVA</li>
+                        <li>C++</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SQL</li>
                     </ul>
                 </div>
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Frameworks
+                        Data Science
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Tailwind CSS</li>
-                        <li>ReactJS</li>
-                        <li>Qt</li>
+                        <li>Linear Algebra</li>
+                        <li>Parameter Estimation</li>
+                        <li>Hypothesis Testing</li>
+
                     </ul>
                 </div>
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Tools
+                        Machine Learning
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Git</li>
-                        <li>Linux</li>
-                        <li>CMake</li>
-                        <li>Google Colab</li>
+                        <li>Regression</li>
+                        <li>Optimization</li>
                     </ul>
                 </div>
+
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
@@ -55,9 +56,11 @@ function Skills() {
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Statistics</li>
-                        <li>Linear Algebra</li>
-                        <li>Public Finance</li>
+                        <li>Google Colab</li>
+                        <li>ReactJS</li>
+                        <li>Tailwind CSS</li>
+                        <li>Git</li>
+                        <li>Linux</li>
                     </ul>
                 </div>
             </div>
