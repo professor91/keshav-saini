@@ -68,9 +68,12 @@ function Projects () {
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <Card 
                     projectName= "Pytubedata"
-                    projectDesc= "A simple wrapper for YouTube Data API written in Python"
+                    projectDesc= "A simple wrapper for YouTube Data API v3 written in Python. Followed official documentation of Youtube Data API and studied multiple existing wrapper projects to implement the wrapper according to industry standards. Implemented Python's setuptools to provide streamline setup on different machines and uploaded the project on PyPi, just a `pip install pytubedata` away to use."
                     previewImg= {YoutubeImg}
-                    socials= {[]}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/pytubedata"],
+                                ["PyPi", "https://pypi.org/project/pytubedata/0.0.1/"]
+                            ]}
                     duration= "November 2022"
                 />
                 <Card 
@@ -101,7 +104,7 @@ function Projects () {
                 />
                 <Card 
                     projectName= "Dependency Graph Builder"
-                    projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them"
+                    projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them."
                     previewImg= {NoPreviewImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/DependencyGraph-Builder"]
