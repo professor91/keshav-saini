@@ -17,11 +17,12 @@ function About () {
             <ul
                 className="list-disc mt-6 mx-4 text-gray-600 ">
                 <li>
-                    <Link 
-                        // href="https://github.com/professor91/keshav-saini/blob/master/src/assets/Resume.pdf">
-                        to="/resume">
+                    <a 
+                        href="https://drive.google.com/drive/folders/1W3Trttd5CQuJ1mDyXTZDlsViZOroNaTv?usp=sharing" 
+                        target='_blank'
+                        rel="noreferrer">
                         My Resume
-                    </Link>
+                    </a>
                 </li>
                 <li>
                     <Link 
