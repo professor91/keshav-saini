@@ -27,18 +27,6 @@ function Skills() {
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Tools
-                    </p>
-                    <ul
-                        className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>ReactJS</li>
-                        <li>BootStrap & Tailwind CSS</li>
-                        <li>CMake</li>
-                    </ul>
-                </div>
-                <div>
-                    <p
-                        className="text-gray-600 leading-relaxed mt-4">
                         Data Analytics
                     </p>
                     <ul
@@ -46,6 +34,18 @@ function Skills() {
                         <li>MS Excel</li>
                         <li>Statistical Analysis</li>
                         <li>Probability</li>
+                    </ul>
+                </div>
+                <div>
+                    <p
+                        className="text-gray-600 leading-relaxed mt-4">
+                        Tools
+                    </p>
+                    <ul
+                        className="list-disc mt-2 mx-4 text-gray-600 ">
+                        <li>ReactJS</li>
+                        <li>BootStrap & Tailwind CSS</li>
+                        <li>CMake</li>
                     </ul>
                 </div>
                 <div>
