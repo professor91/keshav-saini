@@ -19,36 +19,35 @@ function Skills() {
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>Python</li>
                         <li>C++</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
+                        <li>JavaScript</li>
                         <li>SQL</li>
+                        <li>JAVA</li>
                     </ul>
                 </div>
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Data Science
+                        Tools
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Linear Algebra</li>
-                        <li>Parameter Estimation</li>
-                        <li>Hypothesis Testing</li>
-
+                        <li>ReactJS</li>
+                        <li>BootStrap & Tailwind CSS</li>
+                        <li>CMake</li>
                     </ul>
                 </div>
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Machine Learning
+                        Data Analytics
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Regression</li>
-                        <li>Optimization</li>
+                        <li>MS Excel</li>
+                        <li>Statistical Analysis</li>
+                        <li>Probability</li>
                     </ul>
                 </div>
-
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
@@ -57,10 +56,9 @@ function Skills() {
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>Google Colab</li>
-                        <li>ReactJS</li>
-                        <li>Tailwind CSS</li>
                         <li>Git</li>
                         <li>Linux</li>
+                        <li>Web Scraping & APIs</li>
                     </ul>
                 </div>
             </div>
@@ -68,4 +66,3 @@ function Skills() {
     );
 }
 export default Skills;
-
