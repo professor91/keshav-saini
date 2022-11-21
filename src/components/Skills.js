@@ -24,7 +24,7 @@ function Skills() {
                         <li>JAVA</li>
                     </ul>
                 </div>
-                <div>
+                {/* <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
                         Data Analytics
@@ -35,17 +35,19 @@ function Skills() {
                         <li>Statistical Analysis</li>
                         <li>Probability</li>
                     </ul>
-                </div>
+                </div> */}
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
-                        Tools
+                        Frontend
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
+                        <li>HTML5</li>
+                        <li>CSS</li>
                         <li>ReactJS</li>
-                        <li>BootStrap & Tailwind CSS</li>
-                        <li>CMake</li>
+                        <li>BootStrap</li>
+                        <li>Tailwind CSS</li>
                     </ul>
                 </div>
                 <div>
@@ -55,10 +57,10 @@ function Skills() {
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Google Colab</li>
-                        <li>Git</li>
                         <li>Linux</li>
-                        <li>Web Scraping & APIs</li>
+                        <li>Git & GitHub</li>
+                        <li>Google APIs</li>
+                        <li>Google Colab</li>
                     </ul>
                 </div>
             </div>
