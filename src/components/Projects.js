@@ -1,10 +1,12 @@
 import React from "react";
-import NoPreviewImg from "../assets/img/No Preview Available.png";
-import SyllabusWebImg from "../assets/img/syllabusWeb.png"
 import YoutubeImg from "../assets/img/youtube.jpg"
-import DiscordImg from "../assets/img/discord.jpg"
+import SyllabusWebImg from "../assets/img/syllabusWeb.png"
 import SpotifyImg from "../assets/img/spotify.jpg"
+import NoPreviewImg from "../assets/img/No Preview Available.png";
 import WazirXImg from "../assets/img/wazirX.jpg"
+import LinuxIMG from "../assets/img/linux.jpeg"
+import DiscordImg from "../assets/img/discord.jpg"
+import SyllabusDB from "../assets/img/syllabusdb.png"
 import jProfIMG from "../assets/img/jprof.png"
 
 const Card = (props) => {
@@ -84,7 +86,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/SyllabusWeb"], 
                                 ["Preview Site", "https://professor91.github.io/ProjectSyllabusDB/"]
                             ]}
-                    duration= "Sep 2021, April 2022"
+                    duration= "April 2022"
                 />
             </div>
             <p
@@ -100,7 +102,7 @@ function Projects () {
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
-                    duration= "May 2022"
+                    duration= "June 2022"
                 />
                 <Card 
                     projectName= "Dependency Graph Builder"
@@ -115,10 +117,20 @@ function Projects () {
                     projectName= "WazirX Scraper"
                     projectDesc= "Followed instructions of official WazirX REST API wrapper and online sources to build an application that fetches data from wazirX for the specified tokens. Scheduled the task of fetching data to happen automatically everyday at 12 midnight and hosted it on Heroku. Added functionality to save fetched data in structured format using JSON structured in different directories. Also implemented a logging system to record actions performed by the application at various stages."
                     previewImg= {WazirXImg}
-                    socials= {[[
-                                "GitHub", "https://github.com/professor91/wazirXAPI"]
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/wazirXAPI"]
                             ]}
                     duration= "Feb 2022"
+                />
+                <Card
+                    projectName= "Linux From Scratch"
+                    projectDesc= "Primarily followed instructions from Linux From Scratch 10.1, along with multiple forums to try and build my first running Linux From Scratch. Apart from copy-pasting commands from the LFS book, downloaded packages from GitHub and other sources when mentioned packages were incompatible or outdated at the time. Debugged errors and made tweaks in commands after reading multiple forums and documentations. Successfully compiled cross-toolchain, cross compiled temporary tools. Got stuck while building Libstdc++ from GCC-10.2.0. Will pick up again someday!"
+                    previewImg= {LinuxIMG}
+                    socials= {[
+                                ["Linux From Scratch", "https://www.linuxfromscratch.org/"],
+                                ["10.1 Book", "https://www.linuxfromscratch.org/lfs/view/10.1/"]
+                            ]}
+                    duration= "Jan 2022"
                 />
                 <Card 
                     projectName= "DUSC Bot"
@@ -138,6 +150,16 @@ function Projects () {
                             ]}
                     duration= "October 2021"
                 />
+                <Card
+                    projectName= "Project Syllabus DB"
+                    projectDesc= "Project Syllabus DB is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in an interactive manner. Hardcoded website using HTML & CSS."
+                    previewImg= {SyllabusDB}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/ProjectSyllabusDB"],
+                                ["Live Website", "https://professor91.github.io/ProjectSyllabusDB/"]
+                            ]}
+                    duration= "August 2021"
+                />
                 <Card 
                     projectName= "jProf"
                     projectDesc= "Implemented jProf, an interpreter following Crafting Interpreters by Robert Nystrom in JAVA. It features 38 Tokens, a Scanner, a Parser, an Error Handler and a Prompt Window. Can parse code from both prompt window and soruce file. Error Handler reports error with an error message and the line number in which it occured."
@@ -146,7 +168,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/jProf"],
                                 ["Crafting Interpreters", "http://www.craftinginterpreters.com/"]
                             ]}
-                    duration= "June 2021"
+                    duration= "May 2021"
                 />
             </div>
         </div>
