@@ -26,16 +26,22 @@ function About () {
                 </li>
                 <li>
                     <Link 
-                        to="/projects">
-                        My Projects
+                        to="/academics">
+                        Academics
                     </Link>
                 </li>
                 <li>
+                    <Link 
+                        to="/projects">
+                        Projects
+                    </Link>
+                </li>
+                {/* <li>
                     <a
                         href="mailto:keshavsaini1820@gmail.com">
                         Contact Me
                     </a>
-                </li>
+                </li> */}
             </ul>
         </div>
     );
