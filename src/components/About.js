@@ -11,8 +11,7 @@ function About () {
             </p>
             <p
                 className="text-gray-600 leading-relaxed mt-4">
-                I'm a second year Computer Science student at Keshav Mahavidyala, Delhi University.
-                I’m interested in Data Science, Economics and Computer Science in general.
+                Computer Science student with focus on building intelligent application/software.
             </p>
             <ul
                 className="list-disc mt-6 mx-4 text-gray-600 ">
