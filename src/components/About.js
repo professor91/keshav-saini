@@ -16,14 +16,14 @@ function About () {
             </p>
             <ul
                 className="list-disc mt-6 mx-4 text-gray-600 ">
-                <li>
+                {/* <li>
                     <a 
                         href="https://drive.google.com/drive/folders/1W3Trttd5CQuJ1mDyXTZDlsViZOroNaTv?usp=sharing" 
                         target='_blank'
                         rel="noreferrer">
                         My Resume
                     </a>
-                </li>
+                </li> */}
                 <li>
                     <Link 
                         to="/academics">

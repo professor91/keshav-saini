@@ -7,7 +7,7 @@ import About from "./components/About";
 import Project from "./components/Projects";
 import Footer from "./components/Footer";
 import Skills from "./components/Skills";
-import Resume from "./components/Resume";
+// import Resume from "./components/Resume";
 import Credits from "./components/Credits"
 import Academics from "./components/Academics";
 import Experience from "./components/Experience";
@@ -26,7 +26,7 @@ function App() {
             <Route path="/projects" element={<Project />} />
             <Route path="/experience" element={<Experience />} />
             <Route path="/skills" element={<Skills />} />
-            <Route path="/resume" element={<Resume />} />
+            {/* <Route path="/resume" element={<Resume />} /> */}
             <Route path="/credits" element={<Credits />} />
           </Routes>
 
