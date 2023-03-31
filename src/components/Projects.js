@@ -8,6 +8,7 @@ import LinuxIMG from "../assets/img/linux.jpeg"
 import DiscordImg from "../assets/img/discord.jpg"
 import SyllabusDB from "../assets/img/syllabusdb.png"
 import jProfIMG from "../assets/img/jprof.png"
+import GameofLifeIMG from "../assets/img/gameofLife.png"
 
 const Card = (props) => {
     const socials= []
@@ -78,16 +79,6 @@ function Projects () {
                             ]}
                     duration= "November 2022"
                 />
-                <Card 
-                    projectName= "Syllabus Web"
-                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in a well interactive manner. Hardcoded website using HTML & CSS. Working on shifting on ReactJS."
-                    previewImg= {SyllabusWebImg}
-                    socials= {[
-                                ["GitHub", "https://github.com/professor91/SyllabusWeb"], 
-                                ["Preview Site", "https://professor91.github.io/ProjectSyllabusDB/"]
-                            ]}
-                    duration= "April 2022"
-                />
             </div>
             <p
                 className="text-3xl font-bold">
@@ -103,6 +94,16 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
                     duration= "June 2022"
+                />
+                <Card 
+                    projectName= "Syllabus Web"
+                    projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in a well interactive manner. Hardcoded website using HTML & CSS. Working on shifting on ReactJS."
+                    previewImg= {SyllabusWebImg}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/SyllabusWeb"], 
+                                ["Preview Site", "https://professor91.github.io/ProjectSyllabusDB/"]
+                            ]}
+                    duration= "April 2022"
                 />
                 <Card 
                     projectName= "Dependency Graph Builder"
@@ -139,7 +140,7 @@ function Projects () {
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/DUSC-DBot"]
                             ]}
-                    duration= "December 2022"
+                    duration= "December 2021"
                 />
                 <Card
                     projectName= "DPP Bot"
@@ -161,6 +162,15 @@ function Projects () {
                     duration= "August 2021"
                 />
                 <Card 
+                    projectName= "Game of Life"
+                    projectDesc= "Semester's project. Implemented John Conway's Game of Life in JAVA. Features simulation of predefined patterns. Used AWT to build user interface."
+                    previewImg= {GameofLifeIMG}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/GameofLife"]
+                            ]}
+                    duration= "July 2021"
+                />
+                <Card 
                     projectName= "jProf"
                     projectDesc= "Implemented jProf, an interpreter following Crafting Interpreters by Robert Nystrom in JAVA. It features 38 Tokens, a Scanner, a Parser, an Error Handler and a Prompt Window. Can parse code from both prompt window and soruce file. Error Handler reports error with an error message and the line number in which it occured."
                     previewImg= {jProfIMG}
@@ -169,6 +179,15 @@ function Projects () {
                                 ["Crafting Interpreters", "http://www.craftinginterpreters.com/"]
                             ]}
                     duration= "May 2021"
+                />
+                <Card
+                    projectName= "Professor: The Builder"
+                    projectDesc= "Professor: The Builder is a discord server builder bot built in Python. One of the tedious task in building a new discord server is setting up permissions. The bot creates different staff and level roles, creates different channels and sets up all the permissions with just a single command."
+                    previewImg= {DiscordImg}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/ProfessorTheBuilder"]
+                            ]}
+                    duration= "April 2021"
                 />
             </div>
         </div>
