@@ -20,7 +20,7 @@ const Card = (props) => {
                 </div>
                 <div 
                     className="ml-auto">
-                    <a className="pr-6"
+                    <a className="pr-6 italic"
                         href={props.certificate}
                         target="_blank"
                         rel="noreferrer">
