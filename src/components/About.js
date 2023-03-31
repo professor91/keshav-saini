@@ -36,12 +36,12 @@ function About () {
                         Projects
                     </Link>
                 </li>
-                {/* <li>
-                    <a
-                        href="mailto:keshavsaini1820@gmail.com">
-                        Contact Me
-                    </a>
-                </li> */}
+                <li>
+                    <Link 
+                        to="/experience">
+                        Experience
+                    </Link>
+                </li>
             </ul>
         </div>
     );

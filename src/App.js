@@ -10,6 +10,7 @@ import Skills from "./components/Skills";
 import Resume from "./components/Resume";
 import Credits from "./components/Credits"
 import Academics from "./components/Academics";
+import Experience from "./components/Experience";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
             <Route path="/keshav-saini" element={<About />} />
             <Route path="/academics" element={<Academics />} />
             <Route path="/projects" element={<Project />} />
+            <Route path="/experience" element={<Experience />} />
             <Route path="/skills" element={<Skills />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/credits" element={<Credits />} />
