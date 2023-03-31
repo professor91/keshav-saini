@@ -59,6 +59,7 @@ function Skills() {
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>Linux</li>
                         <li>Git & GitHub</li>
+                        <li>MS Excel</li>
                         <li>Google APIs</li>
                         <li>Google Colab</li>
                     </ul>
