@@ -142,7 +142,7 @@ function Projects () {
                             ]}
                     duration= "December 2021"
                 /> */}
-                <Card
+                {/* <Card
                     projectName= "DPP Bot"
                     projectDesc= "Followed official documentation of C++, DPP (a C++ API wrapper to interact with discord API) and forums to program a discord bot. Built DPP library from source using CMake on Linux."
                     previewImg= {DiscordImg}
@@ -150,7 +150,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/DPP_bot"]
                             ]}
                     duration= "October 2021"
-                />
+                /> */}
                 <Card
                     projectName= "Project Syllabus DB"
                     projectDesc= "Project Syllabus DB is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in an interactive manner. Hardcoded website using HTML & CSS."
