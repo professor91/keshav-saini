@@ -1,8 +1,8 @@
 import React from "react";
 import YoutubeImg from "../assets/img/youtube.jpg"
 import SyllabusWebImg from "../assets/img/syllabusWeb.png"
-import SpotifyImg from "../assets/img/spotify.jpg"
-import NoPreviewImg from "../assets/img/No Preview Available.png";
+// import SpotifyImg from "../assets/img/spotify.jpg"
+// import NoPreviewImg from "../assets/img/No Preview Available.png";
 import WazirXImg from "../assets/img/wazirX.jpg"
 import LinuxIMG from "../assets/img/linux.jpeg"
 import DiscordImg from "../assets/img/discord.jpg"
@@ -26,9 +26,9 @@ const Card = (props) => {
 
     return (
         <div 
-            className="pb-10 block md:flex flex-row justify-evenly">
+            className="mb-10 block md:flex flex-row justify-evenly">
             <div
-                className="img w-2/5 sm:justify-center">
+                className="img w-2/5 sm:justify-evenly">
                 <img
                     src={props.previewImg}>
                 </img>
@@ -36,11 +36,11 @@ const Card = (props) => {
             <div
                 className="pt-5 flex flex-col md:basis-1/2 md:pt-0">
                 <span
-                    className="text-2xl font-bold">
+                    className="text-2xl font-bold mb-3">
                         {props.projectName}
                 </span>
                 <p
-                    className="pt-3 pb-5">
+                    className="mb-5">
                     {props.projectDesc}
                 </p>
                 <div
@@ -68,7 +68,7 @@ function Projects () {
                 Active Projects
             </p>
             <div
-                className="list-disc mt-6 mx-4 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     projectName= "Pytubedata"
                     projectDesc= "A simple wrapper for YouTube Data API v3 written in Python. Followed official documentation of Youtube Data API and studied multiple existing wrapper projects to implement the wrapper according to industry standards. Implemented Python's setuptools to provide streamline setup on different machines and uploaded the project on PyPi, just a `pip install pytubedata` away to use."
@@ -85,8 +85,8 @@ function Projects () {
                 Inactive Projects
             </p>
             <div
-                className="list-disc mt-6 mx-4 text-gray-600 ">
-                <Card 
+                className="mt-6 text-gray-600 ">
+                {/* <Card 
                     projectName= "Spotify API"
                     projectDesc= "Followed a tutorial to build an API wrapper for Spotify API. Implemented OAuth 2.0 authorization to get client credentials to make API calls on behalf of the user. Added functionality to save fetched data in structured format using JSON."
                     previewImg= {SpotifyImg}
@@ -94,7 +94,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
                     duration= "June 2022"
-                />
+                /> */}
                 <Card 
                     projectName= "Syllabus Web"
                     projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in a well interactive manner. Hardcoded website using HTML & CSS. Working on shifting on ReactJS."
@@ -105,7 +105,7 @@ function Projects () {
                             ]}
                     duration= "April 2022"
                 />
-                <Card 
+                {/* <Card 
                     projectName= "Dependency Graph Builder"
                     projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them."
                     previewImg= {NoPreviewImg}
@@ -113,7 +113,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/DependencyGraph-Builder"]
                             ]}
                     duration= "March 2022"
-                />
+                /> */}
                 <Card
                     projectName= "WazirX Scraper"
                     projectDesc= "Followed instructions of official WazirX REST API wrapper and online sources to build an application that fetches data from wazirX for the specified tokens. Scheduled the task of fetching data to happen automatically everyday at 12 midnight and hosted it on Heroku. Added functionality to save fetched data in structured format using JSON structured in different directories. Also implemented a logging system to record actions performed by the application at various stages."
@@ -133,7 +133,7 @@ function Projects () {
                             ]}
                     duration= "Jan 2022"
                 />
-                <Card 
+                {/* <Card 
                     projectName= "DUSC Bot"
                     projectDesc= "Used Pycord, a Python API wrapper to interact with discord API, to build a discord bot. Implemented select_menu, a menu giving multiple options to members to choose from and assigning roles to the members according to their responses. Also implemented a logging system to record actions performed by the bot at various stages and a couple utility commands for easy use."
                     previewImg= {DiscordImg}
@@ -141,7 +141,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/DUSC-DBot"]
                             ]}
                     duration= "December 2021"
-                />
+                /> */}
                 <Card
                     projectName= "DPP Bot"
                     projectDesc= "Followed official documentation of C++, DPP (a C++ API wrapper to interact with discord API) and forums to program a discord bot. Built DPP library from source using CMake on Linux."
@@ -194,4 +194,4 @@ function Projects () {
     );
 }
 
-export default Projects;  
+export default Projects;
