@@ -15,7 +15,7 @@ import Experience from "./components/Experience";
 function App() {
   return (
       <div 
-        className="min-h-screen max-w-screen-lg mx-auto sm: px-10 flex flex-col">
+        className="min-h-screen max-w-screen-lg mx-auto sm: px-5 flex flex-col">
         <Router>
           <NavBar />
           <hr></hr>
