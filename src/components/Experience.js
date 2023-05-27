@@ -6,7 +6,7 @@ const Card = (props) => {
 
     for (let point of props.desc) {
         points.push(
-            <li className="pr-6">
+            <li>
                 {point}
             </li>
         )
@@ -17,8 +17,8 @@ const Card = (props) => {
     if (props.pub) {
         pub.push(
             <div
-                className="pb-2">
-                <a className="pr-6 italic"
+                className="mb-2">
+                <a className="italic"
                     href={props.pub[1]}
                     target="_blank"
                     rel="noreferrer">
@@ -30,23 +30,23 @@ const Card = (props) => {
 
     return (
         <div 
-            className="pb-10 block">
+            className="mb-10 block">
                 {/* md:flex flex-row justify-evenly */}
             <span
                 className="text-2xl font-bold">
                     {props.position}
             </span>
             <p
-                className="text-xl pt-1 pb-1">
+                className="text-xl mt-1">
                 {props.orgi}
             </p>
             <div
-                className="pb-1">
+                className="mb-1">
                 {props.duration}
             </div>
             {pub}
             <div 
-                className="ml-auto px-3">
+                className="ml-auto ml-3">
                 {points}
             </div>
         </div>
@@ -63,7 +63,7 @@ function Experience () {
                 Work Experience
             </p>
             <div
-                className="list-disc mt-6 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     position="Discord Bot Developer"
                     orgi="Rachana Ranade and Associates"
@@ -82,7 +82,7 @@ function Experience () {
                 Position of Responsibility
             </p>
             <div
-                className="list-disc mt-6 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     position="Content Team Lead"
                     orgi="e-Blitzine, Department of Computer Science, Keshav Mahavidyalaya"
@@ -133,7 +133,7 @@ function Experience () {
                 Volunteer Experience
             </p>
             <div
-                className="list-disc mt-6 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     position="Discord Community Manager"
                     orgi="Abhi and Niyu"

@@ -3,14 +3,14 @@ import React from "react";
 const Card = (props) => {
     return (
         <div 
-            className="pb-10 block">
+            className="mb-10 block">
                 {/* md:flex flex-row justify-evenly */}
             <span
                 className="text-2xl font-bold">
                     {props.degree}
             </span>
             <p
-                className="text-xl pt-2 pb-1">
+                className="text-xl mt-1">
                 {props.college}
             </p>
             <div
@@ -42,7 +42,7 @@ function Academics () {
                 Formal Education
             </p>
             <div
-                className="list-disc mt-6 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     degree="BSc. (Hons) Computer Science"
                     college="University of Delhi"
@@ -59,7 +59,7 @@ function Academics () {
                 MOOC Certificates
             </p>
             <div
-                className="list-disc mt-6 text-gray-600 ">
+                className="mt-6 text-gray-600 ">
                 <Card 
                     degree="Learning How to Learn"
                     college="Coursera"

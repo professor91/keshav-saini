@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 function NavBar () {
     return(
         <nav
-            className="flex justify-between py-8 ">
+            className="flex justify-between my-8">
             {/*  w-full */}
             <div 
                 className="text-2xl font-bold">
