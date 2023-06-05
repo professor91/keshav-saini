@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/keshav-saini/static/css/main.2fd711c5.css",
+    "main.js": "/keshav-saini/static/js/main.3061304b.js",
+    "static/media/jprof.png": "/keshav-saini/static/media/jprof.f4f53159b6a7201e4185.png",
+    "static/media/wazirX.jpg": "/keshav-saini/static/media/wazirX.506e3f1fd736ac561569.jpg",
+    "static/media/discord.jpg": "/keshav-saini/static/media/discord.2a2fa71fd97fd18b5898.jpg",
+    "static/media/youtube.jpg": "/keshav-saini/static/media/youtube.0768a292c6d949d6b19f.jpg",
+    "static/media/syllabusdb.png": "/keshav-saini/static/media/syllabusdb.dd52d98704fe2e0b85ed.png",
+    "static/media/syllabusWeb.png": "/keshav-saini/static/media/syllabusWeb.f9e2863ee5607d32541e.png",
+    "index.html": "/keshav-saini/index.html",
+    "main.2fd711c5.css.map": "/keshav-saini/static/css/main.2fd711c5.css.map",
+    "main.3061304b.js.map": "/keshav-saini/static/js/main.3061304b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2fd711c5.css",
+    "static/js/main.3061304b.js"
+  ]
+}
