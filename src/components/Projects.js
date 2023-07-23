@@ -1,8 +1,8 @@
 import React from "react";
 import YoutubeImg from "../assets/img/youtube.jpg"
 import SyllabusWebImg from "../assets/img/syllabusWeb.png"
-// import SpotifyImg from "../assets/img/spotify.jpg"
-// import NoPreviewImg from "../assets/img/No Preview Available.png";
+import SpotifyImg from "../assets/img/spotify.jpg"
+import NoPreviewImg from "../assets/img/No Preview Available.png";
 import WazirXImg from "../assets/img/wazirX.jpg"
 import LinuxIMG from "../assets/img/linux.jpeg"
 import DiscordImg from "../assets/img/discord.jpg"
@@ -86,16 +86,25 @@ function Projects () {
             </p>
             <div
                 className="mt-6 text-gray-600 ">
-                {/* <Card 
+                <Card 
+                    projectName= "Hangman Guesser Algorithm"
+                    projectDesc= "Utilizing Python libraries like Pandas, Numpy, and Matplotlib, developed a word prediction algorithm based on probability. Trained on a 175,000-word dictionary, the model predicts letters one at a time. It achieves an average accuracy of 33% in word prediction, allowing it only 5 incorrect guesses."
+                    previewImg= {NoPreviewImg}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/SpotifyAPI"]
+                            ]}
+                    duration= "June 2022"
+                />
+                <Card 
                     projectName= "Spotify API"
-                    projectDesc= "Followed a tutorial to build an API wrapper for Spotify API. Implemented OAuth 2.0 authorization to get client credentials to make API calls on behalf of the user. Added functionality to save fetched data in structured format using JSON."
+                    projectDesc= "Implemented complete flow of OAuth 2.0 authorization from scratch."
                     previewImg= {SpotifyImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
                     duration= "June 2022"
-                /> */}
-                <Card 
+                />
+                {/* <Card 
                     projectName= "Syllabus Web"
                     projectDesc= "Syllabus web is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in a well interactive manner. Hardcoded website using HTML & CSS. Working on shifting on ReactJS."
                     previewImg= {SyllabusWebImg}
@@ -104,7 +113,7 @@ function Projects () {
                                 ["Preview Site", "https://professor91.github.io/ProjectSyllabusDB/"]
                             ]}
                     duration= "April 2022"
-                />
+                /> */}
                 {/* <Card 
                     projectName= "Dependency Graph Builder"
                     projectDesc= "Dependency Graph Builder iterates through each file and tells you that which file depends on what all files and how much it depends on them."
@@ -116,7 +125,7 @@ function Projects () {
                 /> */}
                 <Card
                     projectName= "WazirX Scraper"
-                    projectDesc= "Followed instructions of official WazirX REST API wrapper and online sources to build an application that fetches data from wazirX for the specified tokens. Scheduled the task of fetching data to happen automatically everyday at 12 midnight and hosted it on Heroku. Added functionality to save fetched data in structured format using JSON structured in different directories. Also implemented a logging system to record actions performed by the application at various stages."
+                    projectDesc= "Built an application using WazirX API wrapper that automatically fetches data from wazirX at midnight. Hosted it on Heroku. Added functionality store fetched data in structured format in JSON files."
                     previewImg= {WazirXImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/wazirXAPI"]
@@ -125,7 +134,7 @@ function Projects () {
                 />
                 <Card
                     projectName= "Linux From Scratch"
-                    projectDesc= "Primarily followed instructions from Linux From Scratch 10.1, along with multiple forums to try and build my first running Linux From Scratch. Apart from copy-pasting commands from the LFS book, downloaded packages from GitHub and other sources when mentioned packages were incompatible or outdated at the time. Debugged errors and made tweaks in commands after reading multiple forums and documentations. Successfully compiled cross-toolchain, cross compiled temporary tools. Got stuck while building Libstdc++ from GCC-10.2.0. Will pick up again someday!"
+                    projectDesc= "Following instructions from Linux From Scratch 10.1, along with multiple forums tried to build my first Linux From Scratch. Downloaded packages from GitHub and other sources when mentioned packages were incompatible or outdated at the time. Debugged errors and made tweaks in commands after reading multiple forums and documentations. Successfully compiled cross-toolchain, cross compiled temporary tools. Got stuck while building Libstdc++ from GCC-10.2.0. Will pick up again some-decade!"
                     previewImg= {LinuxIMG}
                     socials= {[
                                 ["Linux From Scratch", "https://www.linuxfromscratch.org/"],
@@ -133,27 +142,27 @@ function Projects () {
                             ]}
                     duration= "Jan 2022"
                 />
-                {/* <Card 
+                <Card 
                     projectName= "DUSC Bot"
-                    projectDesc= "Used Pycord, a Python API wrapper to interact with discord API, to build a discord bot. Implemented select_menu, a menu giving multiple options to members to choose from and assigning roles to the members according to their responses. Also implemented a logging system to record actions performed by the bot at various stages and a couple utility commands for easy use."
+                    projectDesc= "Built a discord bot for DUSC discord community. Implemented discord views to provide a simple UI menus for community members. Used python's requests library to report any updates from news section of DU's official website."
                     previewImg= {DiscordImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/DUSC-DBot"]
                             ]}
                     duration= "December 2021"
-                /> */}
-                {/* <Card
+                />
+                <Card
                     projectName= "DPP Bot"
-                    projectDesc= "Followed official documentation of C++, DPP (a C++ API wrapper to interact with discord API) and forums to program a discord bot. Built DPP library from source using CMake on Linux."
+                    projectDesc= "Followed official documentation of C++, DPP (a C++ API wrapper to interact with discord API) and forums to build a C++ library from source. Successfully built the library using CMake on Linux."
                     previewImg= {DiscordImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/DPP_bot"]
                             ]}
                     duration= "October 2021"
-                /> */}
+                />
                 <Card
                     projectName= "Project Syllabus DB"
-                    projectDesc= "Project Syllabus DB is India’s largest course-syllabus database which features an interactive website that presents syllabus of courses in Delhi University and their syllabus in an interactive manner. Hardcoded website using HTML & CSS."
+                    projectDesc= "Project Syllabus DB is India’s largest course-syllabus database. Features an interactive website that presents syllabus of courses in Delhi University and their syllabus in an interactive manner. Hardcoded website using HTML & CSS."
                     previewImg= {SyllabusDB}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/ProjectSyllabusDB"],
@@ -172,7 +181,7 @@ function Projects () {
                 />
                 <Card 
                     projectName= "jProf"
-                    projectDesc= "Implemented jProf, an interpreter following Crafting Interpreters by Robert Nystrom in JAVA. It features 38 Tokens, a Scanner, a Parser, an Error Handler and a Prompt Window. Can parse code from both prompt window and soruce file. Error Handler reports error with an error message and the line number in which it occured."
+                    projectDesc= "Implemented jProf, an interpreter following Crafting Interpreters by Robert Nystrom in JAVA. Features 38 Tokens, a Scanner, a Parser, an Error Handler and a Prompt Window. Can parse code from both prompt window and soruce file. Error Handler reports error with an error message and the line number in which it occured."
                     previewImg= {jProfIMG}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/jProf"],
@@ -182,7 +191,7 @@ function Projects () {
                 />
                 <Card
                     projectName= "Professor: The Builder"
-                    projectDesc= "Professor: The Builder is a discord server builder bot built in Python. One of the tedious task in building a new discord server is setting up permissions. The bot creates different staff and level roles, creates different channels and sets up all the permissions with just a single command."
+                    projectDesc= "The most tedious task when building a new discord server is setting up roles and permissions. Built a discord bot that creates all staff roles, level roles, and channels and sets up all the permissions with just a single command."
                     previewImg= {DiscordImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/ProfessorTheBuilder"]
