@@ -71,7 +71,7 @@ function Projects () {
                 className="mt-6 text-gray-600 ">
                 <Card 
                     projectName= "Pytubedata"
-                    projectDesc= "A simple wrapper for YouTube Data API v3 written in Python. Followed official documentation of Youtube Data API and studied multiple existing wrapper projects to implement the wrapper according to industry standards. Implemented Python's setuptools to provide streamline setup on different machines and uploaded the project on PyPi, just a `pip install pytubedata` away to use."
+                    projectDesc= "Developed an API wrapper for YouTube Data API v3 in Python. Created a modular and maintainable codebase following monolithic architecture. Abstracted HTTP request handling, to make GET requests, handle pagination, and manage API errors. Conducted thorough unit testing and uploaded package on PyPi, just a `pip install pytubedata` away to use."
                     previewImg= {YoutubeImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/pytubedata"],
