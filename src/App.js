@@ -22,10 +22,10 @@ function App() {
 
           <Routes>
             <Route path="/keshav-saini" element={<About />} />
-            <Route path="/academics" element={<Academics />} />
-            <Route path="/projects" element={<Project />} />
-            <Route path="/experience" element={<Experience />} />
-            <Route path="/skills" element={<Skills />} />
+            <Route path="/keshav-saini/academics" element={<Academics />} />
+            <Route path="/keshav-saini/projects" element={<Project />} />
+            <Route path="/keshav-saini/experience" element={<Experience />} />
+            <Route path="/keshav-saini/skills" element={<Skills />} />
             {/* <Route path="/resume" element={<Resume />} /> */}
             <Route path="/credits" element={<Credits />} />
           </Routes>
