@@ -18,7 +18,7 @@ function NavBar () {
                 className="hidden md:flex space-x-10 items-center">
                 <Link 
                     className=""
-                    to="/skills">
+                    to="/keshav-saini/skills">
                     Skills
                 </Link>
                 <a 

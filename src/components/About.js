@@ -25,19 +25,19 @@ function About () {
                 </li> */}
                 <li>
                     <Link 
-                        to="/academics">
+                        to="/keshav-saini/academics">
                         Academics
                     </Link>
                 </li>
                 <li>
                     <Link 
-                        to="/projects">
+                        to="/keshav-saini/projects">
                         Projects
                     </Link>
                 </li>
                 <li>
                     <Link 
-                        to="/experience">
+                        to="/keshav-saini/experience">
                         Experience
                     </Link>
                 </li>
