@@ -11,7 +11,7 @@ function About () {
             </p>
             <p
                 className="text-gray-600 leading-relaxed mt-4">
-                Computer Science student with focus on building intelligent application/software.
+                Backend Developer with focus on building backend systems using <span style={{ fontWeight: "bold" }}>Python, Django, FastAPI, PostgreSQl, and AWS</span>.
             </p>
             <ul
                 className="list-disc mt-6 mx-4 text-gray-600 ">
@@ -25,8 +25,8 @@ function About () {
                 </li> */}
                 <li>
                     <Link 
-                        to="/keshav-saini/academics">
-                        Academics
+                        to="/keshav-saini/experience">
+                        Experience
                     </Link>
                 </li>
                 <li>
@@ -37,8 +37,8 @@ function About () {
                 </li>
                 <li>
                     <Link 
-                        to="/keshav-saini/experience">
-                        Experience
+                        to="/keshav-saini/academics">
+                        Academics
                     </Link>
                 </li>
             </ul>

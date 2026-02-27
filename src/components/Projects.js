@@ -63,10 +63,19 @@ function Projects () {
         <div 
             className="mt-10">
                 {/* max-w-4xl */}
-            <p
-                className="text-3xl font-bold">
-                Active Projects
-            </p>
+            {/* <p className="text-3xl font-bold">Active Projects</p> */}
+            <div className="mt-6 text-gray-600 ">
+                <Card 
+                    projectName= "Type Racer using Django Websockets"
+                    projectDesc= "Implemented a type game entirely in Django which users can play as a guest user. User Django Consumers for websockets sending users typing progress in real-time. Also implemented frontend using django templates."
+                    previewImg= {YoutubeImg}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/type-racer"],
+                            ]}
+                    duration= "February 2026"
+                />
+            </div>
+            {/* <p className="text-3xl font-bold">Inactive Projects</p> */}
             <div
                 className="mt-6 text-gray-600 ">
                 <Card 
@@ -79,13 +88,6 @@ function Projects () {
                             ]}
                     duration= "November 2022"
                 />
-            </div>
-            <p
-                className="text-3xl font-bold">
-                Inactive Projects
-            </p>
-            <div
-                className="mt-6 text-gray-600 ">
                 <Card 
                     projectName= "Hangman Guesser Algorithm"
                     projectDesc= "Utilizing Python libraries like Pandas, Numpy, and Matplotlib, developed a word prediction algorithm based on probability. Trained on a 175,000-word dictionary, the model predicts letters one at a time. It achieves an average accuracy of 33% in word prediction, allowing it only 5 incorrect guesses."
@@ -123,15 +125,15 @@ function Projects () {
                             ]}
                     duration= "March 2022"
                 /> */}
-                <Card
-                    projectName= "WazirX Scraper"
-                    projectDesc= "Built an application using WazirX API wrapper that automatically fetches data from wazirX at midnight. Hosted it on Heroku. Added functionality store fetched data in structured format in JSON files."
-                    previewImg= {WazirXImg}
-                    socials= {[
-                                ["GitHub", "https://github.com/professor91/wazirXAPI"]
-                            ]}
-                    duration= "Feb 2022"
-                />
+                {/* <Card */}
+                {/*     projectName= "WazirX Scraper" */}
+                {/*     projectDesc= "Built an application using WazirX API wrapper that automatically fetches data from wazirX at midnight. Hosted it on Heroku. Added functionality store fetched data in structured format in JSON files." */}
+                {/*     previewImg= {WazirXImg} */}
+                {/*     socials= {[ */}
+                {/*                 ["GitHub", "https://github.com/professor91/wazirXAPI"] */}
+                {/*             ]} */}
+                {/*     duration= "Feb 2022" */}
+                {/* /> */}
                 <Card
                     projectName= "Linux From Scratch"
                     projectDesc= "Following instructions from Linux From Scratch 10.1, along with multiple forums tried to build my first Linux From Scratch. Downloaded packages from GitHub and other sources when mentioned packages were incompatible or outdated at the time. Debugged errors and made tweaks in commands after reading multiple forums and documentations. Successfully compiled cross-toolchain, cross compiled temporary tools. Got stuck while building Libstdc++ from GCC-10.2.0. Will pick up again some-decade!"
@@ -142,15 +144,15 @@ function Projects () {
                             ]}
                     duration= "Jan 2022"
                 />
-                <Card 
-                    projectName= "DUSC Bot"
-                    projectDesc= "Built a discord bot for DUSC discord community. Implemented discord views to provide a simple UI menus for community members. Used python's requests library to report any updates from news section of DU's official website."
-                    previewImg= {DiscordImg}
-                    socials= {[
-                                ["GitHub", "https://github.com/professor91/DUSC-DBot"]
-                            ]}
-                    duration= "December 2021"
-                />
+                {/* <Card  */}
+                {/*     projectName= "DUSC Bot" */}
+                {/*     projectDesc= "Built a discord bot for DUSC discord community. Implemented discord views to provide a simple UI menus for community members. Used python's requests library to report any updates from news section of DU's official website." */}
+                {/*     previewImg= {DiscordImg} */}
+                {/*     socials= {[ */}
+                {/*                 ["GitHub", "https://github.com/professor91/DUSC-DBot"] */}
+                {/*             ]} */}
+                {/*     duration= "December 2021" */}
+                {/* /> */}
                 <Card
                     projectName= "DPP Bot"
                     projectDesc= "Followed official documentation of C++, DPP (a C++ API wrapper to interact with discord API) and forums to build a C++ library from source. Successfully built the library using CMake on Linux."
@@ -189,15 +191,15 @@ function Projects () {
                             ]}
                     duration= "May 2021"
                 />
-                <Card
-                    projectName= "Professor: The Builder"
-                    projectDesc= "The most tedious task when building a new discord server is setting up roles and permissions. Built a discord bot that creates all staff roles, level roles, and channels and sets up all the permissions with just a single command."
-                    previewImg= {DiscordImg}
-                    socials= {[
-                                ["GitHub", "https://github.com/professor91/ProfessorTheBuilder"]
-                            ]}
-                    duration= "April 2021"
-                />
+                {/* <Card */}
+                {/*     projectName= "Professor: The Builder" */}
+                {/*     projectDesc= "The most tedious task when building a new discord server is setting up roles and permissions. Built a discord bot that creates all staff roles, level roles, and channels and sets up all the permissions with just a single command." */}
+                {/*     previewImg= {DiscordImg} */}
+                {/*     socials= {[ */}
+                {/*                 ["GitHub", "https://github.com/professor91/ProfessorTheBuilder"] */}
+                {/*             ]} */}
+                {/*     duration= "April 2021" */}
+                {/* /> */}
             </div>
         </div>
     );

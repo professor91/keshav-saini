@@ -5,28 +5,22 @@ const Card = (props) => {
         <div 
             className="mb-10 block">
                 {/* md:flex flex-row justify-evenly */}
-            <span
-                className="text-2xl font-bold">
-                    {props.degree}
-            </span>
-            <p
-                className="text-xl mt-1">
-                {props.college}
-            </p>
-            <div
-                className="">
-                <div> 
-                    {props.duration}
+
+            <div className="flex justify-between items-baseline mt-1 mb-1">
+                <div>
+                    <span className="text-2xl font-bold">{props.degree}</span>
+                    <p className="text-xl mt-1">{props.college}</p>
                 </div>
-                <div 
-                    className="ml-auto">
-                    <a className="pr-6 italic"
-                        href={props.certificate}
-                        target="_blank"
-                        rel="noreferrer">
-                        Certificate
-                    </a>
-                </div>
+                <div>{props.duration}</div>
+            </div>
+            <div 
+                className="ml-auto">
+                <a className="pr-6 italic"
+                    href={props.certificate}
+                    target="_blank"
+                    rel="noreferrer">
+                    Certificate
+                </a>
             </div>
         </div>
     );
@@ -39,19 +33,18 @@ function Academics () {
                 {/* max-w-4xl */}
             <p
                 className="text-3xl font-bold">
-                Formal Education
+                Education
             </p>
-            <div
-                className="mt-6 text-gray-600 ">
-                <Card 
-                    degree="BSc. (Hons) Computer Science"
-                    college="University of Delhi"
-                    duration="2020-2023"
-                />
+            <div className="mt-6 text-gray-600 ">
                 <Card 
                     degree="Foundational Certificate Data Science & Programming"
                     college="Indian Institute of Technology Madras"
-                    duration="2021-2022"
+                    duration="Jan 2021 - Dec 2021"
+                />
+                <Card 
+                    degree="BSc. (Hons) Computer Science"
+                    college="University of Delhi"
+                    duration="Nov 2020 - May 2023"
                 />
             </div>
             <p

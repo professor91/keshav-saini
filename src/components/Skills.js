@@ -11,31 +11,36 @@ function Skills() {
             <div
                 className="flex justify-between">
                 <div>
-                    <p
-                        className="text-gray-600 leading-relaxed mt-4">
-                        Programming
+                    <p className="text-gray-600 leading-relaxed mt-4">
+                        Backend
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>Python</li>
-                        <li>C++</li>
+                        <li>Django</li>
+                        <li>FastAPI</li>
+                        <li>PostgreSQL</li>
+                        <li>Redis</li>
+                        <li>Celery</li>
+                        <li>boto3 (DynamoDB, S3)</li>
+                        <li>MongoDB</li>
                         <li>JavaScript</li>
-                        <li>SQL</li>
-                        <li>JAVA</li>
                     </ul>
                 </div>
-                {/* <div>
-                    <p
-                        className="text-gray-600 leading-relaxed mt-4">
-                        Data Analytics
+
+                <div>
+                    <p className="text-gray-600 leading-relaxed mt-4">
+                        Cloud
                     </p>
                     <ul
                         className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>MS Excel</li>
-                        <li>Statistical Analysis</li>
-                        <li>Probability</li>
+                        <li>AWS EC2</li>
+                        <li>AWS Cloudwatch</li>
+                        <li>Digital Ocean</li>
+                        <li>Nginx</li>
+                        <li>Github Workflows</li>
                     </ul>
-                </div> */}
+                </div>
                 <div>
                     <p
                         className="text-gray-600 leading-relaxed mt-4">
@@ -45,23 +50,8 @@ function Skills() {
                         className="list-disc mt-2 mx-4 text-gray-600 ">
                         <li>HTML5</li>
                         <li>CSS</li>
-                        <li>ReactJS</li>
-                        <li>BootStrap</li>
-                        <li>Tailwind CSS</li>
-                    </ul>
-                </div>
-                <div>
-                    <p
-                        className="text-gray-600 leading-relaxed mt-4">
-                        Other
-                    </p>
-                    <ul
-                        className="list-disc mt-2 mx-4 text-gray-600 ">
-                        <li>Linux</li>
-                        <li>Git & GitHub</li>
-                        <li>MS Excel</li>
-                        <li>Google APIs</li>
-                        <li>Google Colab</li>
+                        <li>TailwindCSS</li>
+                        <li>Flutter</li>
                     </ul>
                 </div>
             </div>
