@@ -93,7 +93,7 @@ function Experience () {
                         "Automated the tedious process of configuring new Discord batches by implementing a backend workflow, reducing setup time from 2.5 hours to seconds",
                         "Implemented MongoDB aggregation queries for reporting system-analytics and drove a mentor Leaderboard",
                     ]}
-                    tags={["Python", "JavaScript", "FastAPI", "API Integration", "MongoDB", "Digital Ocean"]}
+                    tags={["Python", "JavaScript", "FastAPI", "MongoDB", "Digital Ocean"]}
                 />
             </div>
 
@@ -109,7 +109,7 @@ function Experience () {
                         "The bot was created using Discord API wrapper in Python, Google Sheets and GSheets API featuring an authentication layer enabling course students to securely get access to course-specific chat-rooms",
                         "Proven ability to take an idea from conception to implementation"
                     ]}
-                    tags={["Python", "API Integration", "Google Sheets API"]}
+                    tags={["Python", "API Integration", "Google Sheets API", "Heroku"]}
                 />
             </div>
 

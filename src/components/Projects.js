@@ -1,5 +1,6 @@
 import React from "react";
 import YoutubeImg from "../assets/img/youtube.jpg"
+import TypeRacerImg from "../assets/img/TypeRacer.png"
 import SyllabusWebImg from "../assets/img/syllabusWeb.png"
 import SpotifyImg from "../assets/img/spotify.jpg"
 import NoPreviewImg from "../assets/img/No Preview Available.png";
@@ -12,6 +13,7 @@ import GameofLifeIMG from "../assets/img/gameofLife.png"
 
 const Card = (props) => {
     const socials= []
+    const tagsList = []
 
     for (let social of props.socials) {
         socials.push(
@@ -23,6 +25,10 @@ const Card = (props) => {
             </a>
         )
     };
+
+    for (let tag of (props.tags || [])) {
+        tagsList.push(<span className='tech-tag'>{tag}</span>)
+    }
 
     return (
         <div 
@@ -43,6 +49,9 @@ const Card = (props) => {
                     className="mb-5">
                     {props.projectDesc}
                 </p>
+                <div className='tech-stack' style={{display: 'flex', flexWrap: 'wrap', gap: '8px', marginRight: '10px', marginBottom: '10px'}}>
+                    {tagsList}
+                </div>
                 <div
                     className="mt-auto flex">
                     <div> 
@@ -67,11 +76,12 @@ function Projects () {
             <div className="mt-6 text-gray-600 ">
                 <Card 
                     projectName= "Type Racer using Django Websockets"
-                    projectDesc= "Implemented a type game entirely in Django which users can play as a guest user. User Django Consumers for websockets sending users typing progress in real-time. Also implemented frontend using django templates."
-                    previewImg= {YoutubeImg}
+                    projectDesc= "Implemented a typing game in Django which users can play as a guest user. Used Django Consumers for websockets sending users typing progress in real-time. Also implemented frontend using django templates."
+                    previewImg= {TypeRacerImg}
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/type-racer"],
                             ]}
+                    tags={['Python', 'Django', 'WebSockets', 'Redis']}
                     duration= "February 2026"
                 />
             </div>
@@ -86,6 +96,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/pytubedata"],
                                 ["PyPi", "https://pypi.org/project/pytubedata/0.0.1/"]
                             ]}
+                    tags={['Python']}
                     duration= "November 2022"
                 />
                 <Card 
@@ -95,6 +106,7 @@ function Projects () {
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
+                    tags={['Pandas', 'Numpy']}
                     duration= "June 2022"
                 />
                 <Card 
@@ -104,6 +116,7 @@ function Projects () {
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/SpotifyAPI"]
                             ]}
+                    tags={['Python']}
                     duration= "June 2022"
                 />
                 {/* <Card 
@@ -170,6 +183,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/ProjectSyllabusDB"],
                                 ["Live Website", "https://professor91.github.io/ProjectSyllabusDB/"]
                             ]}
+                    tags={['HTML', 'CSS']}
                     duration= "August 2021"
                 />
                 <Card 
@@ -179,6 +193,7 @@ function Projects () {
                     socials= {[
                                 ["GitHub", "https://github.com/professor91/GameofLife"]
                             ]}
+                    tags={['JAVA']}
                     duration= "July 2021"
                 />
                 <Card 
@@ -189,6 +204,7 @@ function Projects () {
                                 ["GitHub", "https://github.com/professor91/jProf"],
                                 ["Crafting Interpreters", "http://www.craftinginterpreters.com/"]
                             ]}
+                    tags={['JAVA']}
                     duration= "May 2021"
                 />
                 {/* <Card */}

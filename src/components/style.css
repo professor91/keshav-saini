@@ -1,12 +1,12 @@
 .tech-tag {
     background: rgba(255, 255, 255, 0.1);
-    color: #666;
     padding: 6px 12px;
+    color: #666;
+    border: 1px solid rgba(0, 0, 0);
     border-radius: 6px;
     font-size: 0.813rem;
     font-weight: 500;
     transition: all 0.2s ease;
-    border: 1px solid rgba(0, 0, 0);
 }
 .tech-tag:hover {
     color: #425df5;
