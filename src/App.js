@@ -11,6 +11,7 @@ import Skills from "./components/Skills";
 import Credits from "./components/Credits"
 import Academics from "./components/Academics";
 import Experience from "./components/Experience";
+import GithubProjects from "./components/GitHub";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/keshav-saini/skills" element={<Skills />} />
             {/* <Route path="/resume" element={<Resume />} /> */}
             <Route path="/credits" element={<Credits />} />
+            <Route path="/github" element={<GithubProjects username="professor91"/>} />
           </Routes>
 
           <Footer />
