@@ -9,6 +9,7 @@ import LinuxIMG from "../assets/img/linux.jpeg"
 import DiscordImg from "../assets/img/discord.jpg"
 import SyllabusDB from "../assets/img/syllabusdb.png"
 import jProfIMG from "../assets/img/jprof.png"
+import NaukriExtImg from "../assets/img/naukri_ext.png"
 import GameofLifeIMG from "../assets/img/gameofLife.png"
 
 const Card = (props) => {
@@ -74,6 +75,17 @@ function Projects () {
                 {/* max-w-4xl */}
             {/* <p className="text-3xl font-bold">Active Projects</p> */}
             <div className="mt-6 text-gray-600 ">
+                <Card 
+                    projectName= "Naukri Filters (Chrome Web Extension)"
+                    projectDesc= "A custom Chrome extension designed to speed up the job applying process on Naukri.com. It applys filters like experience and freshness on Recommened Jobs List by naukri hiding irrevalant jobs (as high as >90%) and saving tons of time spent on finding latest jobs"
+                    previewImg= {NaukriExtImg}
+                    socials= {[
+                                ["GitHub", "https://github.com/professor91/naukri-extension"],
+                                ["Demo", "https://youtu.be/rnP3ErVQgGY"],
+                            ]}
+                    tags={['JavaScript', 'Chrome Extension APIs', 'DOM Manipulation']}
+                    duration= "March 2026"
+                />
                 <Card 
                     projectName= "Type Racer using Django Websockets"
                     projectDesc= "Implemented a typing game in Django which users can play as a guest user. Used Django Consumers for websockets sending users typing progress in real-time. Also implemented frontend using django templates."
